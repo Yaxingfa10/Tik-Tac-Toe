@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8dfec">
+  <title>Tik-Tac-Toe ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="game-container">
+
+    <header class="game-header">
+      <p class="japanese">まるばつゲーム</p>
+      <h1>♡ TIK-TAC-TOE ♡</h1>
+      <p class="subtitle">a tiny game of circles & crosses</p>
+    </header>
+
+    <section class="scoreboard">
+      <div class="player-card">
+        <span>🐱 PLAYER 1</span>
+        <strong id="scoreX">0</strong>
+        <small>♡ X ♡</small>
+      </div>
+
+      <div class="player-card">
+        <span>🐰 PLAYER 2</span>
+        <strong id="scoreO">0</strong>
+        <small>♡ O ♡</small>
+      </div>
+    </section>
+
+    <p id="status">PLAYER 1'S TURN!</p>
+
+    <section class="board" id="board">
+      <button class="cell" data-index="0"></button>
+      <button class="cell" data-index="1"></button>
+      <button class="cell" data-index="2"></button>
+      <button class="cell" data-index="3"></button>
+      <button class="cell" data-index="4"></button>
+      <button class="cell" data-index="5"></button>
+      <button class="cell" data-index="6"></button>
+      <button class="cell" data-index="7"></button>
+      <button class="cell" data-index="8"></button>
+    </section>
+
+    <div class="controls">
+      <button id="restart">↻ RESTART</button>
+      <button id="reset">♡ RESET SCORES</button>
+    </div>
+
+    <footer>
+      <p>✿ made with love & pixels ✿</p>
+      <p>EST. 199X · PIXEL EDITION</p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
